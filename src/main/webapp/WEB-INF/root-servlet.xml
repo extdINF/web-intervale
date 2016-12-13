@@ -13,7 +13,10 @@
        ">
 
     <mvc:annotation-driven/>
-    <context:component-scan base-package="Controllers"/>
+    <context:component-scan base-package="controllers"/>
+
+    <bean id="categoryParser" class="parser.category.XML.DOMXMLCategoryParser"/>
+    <bean id="categoryDAO" class="dao.xml.XMLCategoryDAO"/>
 
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.UrlBasedViewResolver">

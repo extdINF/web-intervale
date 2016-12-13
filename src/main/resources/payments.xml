@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<categories>
+  <category name="communal" title="Квартплата" rating="4">
+    <payment id="CD02D317AA50" title="Газ" rating="3"/>
+    <payment id="099F292C891B" title="Квартплата" rating="1"/>
+    <payment id="ED28094B63A5" title="Энергосбыт" rating="2"/>
+  </category>
+  <category name="tickets" title="Авиа и ж/д билеты" rating="6">
+    <payment id="0B1F1DE82F7A" title="OZON.travel" rating="3"/>
+    <payment id="F226D529F7C0" title="Автовокзалы" rating="1"/>
+    <payment id="06CC5D6A0502" title="S7 Airlines" rating="4"/>
+    <payment id="8F3714D7F369" title="Мострансагенство" rating="2"/>
+  </category>
+  <category name="tv" title="Телевидение" rating="3">
+    <payment title="НТВ-плюс" id="D32580E0BEC4" rating="1"/>
+    <payment title="Телекарта" id="74476B515638" rating="6"/>
+    <payment title="Одинцово ТРК" id="F3DCF96C9CB0" rating="6"/>
+    <payment title="Мультинекс" id="BCCB14A6B237" rating="4"/>
+    <payment title="Триколор ТВ" id="30B4D198784D" rating="2"/>
+    <payment title="Радуга ТВ" id="8F9D31134B8D" rating="3"/>
+    <payment title="mmTV" id="B387B9271A53" rating="7"/>
+  </category>
+  <category name="internet" title="Интернет" rating="2">
+    <payment title="I-Wave" rating="5" id=""/>
+    <payment title="Butovo.com" rating="2" id=""/>
+    <payment title="Altegro" rating="1" id=""/>
+    <payment title="HeliosNet" rating="4" id=""/>
+    <payment title="ButovoNET" rating="3" id=""/>
+    <payment title="Koptevo.net" rating="6" id=""/>
+    <payment title="QWERTY" rating="7" id=""/>
+  </category>
+  <category name="ewallets" title="Электронные кошельки" rating="5">
+    <payment title="MONETA.RU" rating="4" id="972998154B85"/>
+    <payment title="i-transfer" rating="3" id="9B68091AA9E2"/>
+    <payment title="WebMoney" rating="2" id="892133BBACE3"/>
+    <payment title="Яндекс.Деньги" rating="1" id="148912C0E99B"/>
+  </category>
+  <category name="phone" title="Телефония" rating="7">
+    <payment title="МГТС" id="AB971C7673BD" rating="1"/>
+    <payment title="МТТ" id="292FBE9309DE" rating="2"/>
+    <payment title="Меганет" id="4AD1970EF49E" rating="3"/>
+  </category>
+  <category name="mobile" title="Мобильный" rating="1">
+    <payment title="Eurosim Travel" rating="9" id="C04007046A88"/>
+    <payment title="Билайн" rating="2" id="EB7A56D804B9"/>
+    <payment title="МТС" rating="1" id="F270088036F2"/>
+    <payment title="МегаФон" rating="3" id="B03A3421C24E"/>
+    <payment title="GLOBALSIM" rating="8" id="4E99E2BC61DA"/>
+    <payment title="SIMTRAVEL" rating="7" id="5215680E875A"/>
+    <payment title="Teletie" rating="6" id="E30177717F44"/>
+    <payment title="TezGsm" rating="5" id="CEF6FDCF0B56"/>
+    <payment title="Матрикс Телеком" rating="4" id="2811EEEBFFAC"/>
+  </category>
+</categories>

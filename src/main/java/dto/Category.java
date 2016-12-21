@@ -2,7 +2,7 @@ package dto;
 
 import java.util.List;
 
-public class Category {
+public class Category implements Comparable<Category> {
 
     private String name;
     private String title;
@@ -48,4 +48,7 @@ public class Category {
         this.payments = payments;
     }
 
+    public int compareTo(Category o) {
+        return o.getRating() - this.getRating();
+    }
 }

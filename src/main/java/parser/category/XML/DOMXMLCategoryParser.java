@@ -11,13 +11,14 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 public class DOMXMLCategoryParser implements Parser<Category> {
 
     private DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 
-    public List<Category> parse(InputStream inputStream) {
+    public Collection<Category> parse(InputStream inputStream) {
 
         List<Category> categories = new ArrayList<Category>();
 

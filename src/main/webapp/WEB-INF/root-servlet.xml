@@ -13,6 +13,7 @@
        ">
 
     <mvc:annotation-driven/>
+    <mvc:resources mapping="/**" location="/" />
     <context:component-scan base-package="controllers"/>
 
     <bean id="categoryParser" class="parser.category.XML.DOMXMLCategoryParser"/>

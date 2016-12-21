@@ -1,0 +1,341 @@
+*
+ {
+     transition-property: all;
+     transition-duration: 0.5s;
+ }
+
+html
+{
+    font-family: "Segoe UI", sans-serif;
+}
+
+body
+{
+    background-color: #2196F3;
+    margin: 5vh 5vw;
+    color: white;
+}
+
+.header,
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    opacity: 0.3;
+    min-height: 15vh;
+}
+
+.category > img
+{
+    width: 64px;
+    height: auto;
+}
+
+.category,
+.payment
+{
+    cursor: pointer;
+}
+
+.category:hover,
+.payment:hover
+{
+    opacity: 0.8;
+    background-color: #42A5F5;
+}
+
+.payment-category-label
+{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    min-height: 10vh;
+}
+
+.categories-container,
+.payments
+{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: baseline;
+}
+
+.payments
+{
+    flex: 1;
+}
+
+.categories-container,
+.payments-container
+{
+    min-height: 25vh;
+}
+
+.category
+{
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: auto;
+}
+
+.payments-container
+{
+    display: flex;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.payment
+{
+    margin: auto 10px;
+}
+
+.payment-image,
+.category-image
+{
+    width: 64px;
+    height: 64px;
+    margin: 10px auto;
+    background-size: contain;
+}
+
+.payment-image
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border-radius: 64px;
+}
+
+.category-title
+{
+    color: black;
+}
+
+div[id='0B1F1DE82F7A']
+{
+    background-image: url("../img/0B1F1DE82F7A.png");
+}
+
+div[id='2XH1Z4F9FDYU']
+{
+    background-image: url("../img/2XH1Z4F9FDYU.png");
+}
+
+div[id='4AD1970EF49E']
+{
+    background-image: url("../img/4AD1970EF49E.png");
+}
+
+div[id='4E99E2BC61DA']
+{
+    background-image: url("../img/4E99E2BC61DA.png");
+}
+
+div[id='5ZUXHGF1W0GI']
+{
+    background-image: url("../img/5ZUXHGF1W0GI.png");
+}
+
+div[id='06CC5D6A0502']
+{
+    background-image: url("../img/06CC5D6A0502.png");
+}
+
+div[id='8F9D31134B8D']
+{
+    background-image: url("../img/8F9D31134B8D.png");
+}
+
+div[id='8F3714D7F369']
+{
+    background-image: url("../img/8F3714D7F369.png");
+}
+
+div[id='9B68091AA9E2']
+{
+    background-image: url("../img/9B68091AA9E2.png");
+}
+
+div[id='30B4D198784D']
+{
+    background-image: url("../img/30B4D198784D.png");
+}
+
+div[id='50MKF3JGA34V']
+{
+    background-image: url("../img/50MKF3JGA34V.png");
+}
+
+div[id='099F292C891B']
+{
+    background-image: url("../img/099F292C891B.png");
+}
+
+div[id='292FBE9309DE']
+{
+    background-image: url("../img/292FBE9309DE.png");
+}
+
+div[id='2811EEEBFFAC']
+{
+    background-image: url("../img/2811EEEBFFAC.png");
+}
+
+div[id='74476B515638']
+{
+    background-image: url("../img/74476B515638.png");
+}
+
+div[id='148912C0E99B']
+{
+    background-image: url("../img/148912C0E99B.png");
+}
+
+div[id='892133BBACE3']
+{
+    background-image: url("../img/892133BBACE3.png");
+}
+
+div[id='5215680E875A']
+{
+    background-image: url("../img/5215680E875A.png");
+}
+
+div[id='972998154B85']
+{
+    background-image: url("../img/972998154B85.png");
+}
+
+div[id='AB971C7673BD']
+{
+    background-image: url("../img/AB971C7673BD.png");
+}
+
+div[id='B03A3421C24E']
+{
+    background-image: url("../img/B03A3421C24E.png");
+}
+
+div[id='B387B9271A53']
+{
+    background-image: url("../img/B387B9271A53.png");
+}
+
+div[id='BCCB14A6B237']
+{
+    background-image: url("../img/BCCB14A6B237.png");
+}
+
+div[id='C04007046A88']
+{
+    background-image: url("../img/C04007046A88.png");
+}
+
+div[id='CD02D317AA50']
+{
+    background-image: url("../img/CD02D317AA50.png");
+}
+
+div[id='CEF6FDCF0B56']
+{
+    background-image: url("../img/CEF6FDCF0B56.png");
+}
+
+div[id='D32580E0BEC4']
+{
+    background-image: url("../img/D32580E0BEC4.png");
+}
+
+div[id='E30177717F44']
+{
+    background-image: url("../img/E30177717F44.png");
+}
+
+div[id='EB7A56D804B9']
+{
+    background-image: url("../img/EB7A56D804B9.png");
+}
+
+div[id='ED28094B63A5']
+{
+    background-image: url("../img/ED28094B63A5.png");
+}
+
+div[id='F3DCF96C9CB0']
+{
+    background-image: url("../img/F3DCF96C9CB0.png");
+}
+
+div[id='F226D529F7C0']
+{
+    background-image: url("../img/F226D529F7C0.png");
+}
+
+div[id='F270088036F2']
+{
+    background-image: url("../img/F270088036F2.png");
+}
+
+div[id='KWH7J5XP769A']
+{
+    background-image: url("../img/KWH7J5XP769A.png");
+}
+
+div[id='LT80876C24ZT']
+{
+    background-image: url("../img/LT80876C24ZT.png");
+}
+
+div[id='N9VJW1FZJ0J0']
+{
+    background-image: url("../img/N9VJW1FZJ0J0.png");
+}
+
+div[id='ST1OVOPI6M0X']
+{
+    background-image: url("../img/ST1OVOPI6M0X.png");
+}
+
+div[id='communal']
+{
+    background-image: url("../img/communal.png");
+}
+
+div[id='ewallets']
+{
+    background-image: url("../img/ewallets.png");
+}
+
+div[id='internet']
+{
+    background-image: url("../img/internet.png");
+}
+
+div[id='mobile']
+{
+    background-image: url("../img/mobile.png");
+}
+
+div[id='phone']
+{
+    background-image: url("../img/phone.png");
+}
+
+div[id='tickets']
+{
+    background-image: url("../img/tickets.png");
+}
+
+div[id='tv']
+{
+    background-image: url("../img/tv.png");
+}

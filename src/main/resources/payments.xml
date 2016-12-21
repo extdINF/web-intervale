@@ -21,13 +21,13 @@
     <payment title="mmTV" id="B387B9271A53" rating="7"/>
   </category>
   <category name="internet" title="Интернет" rating="2">
-    <payment title="I-Wave" rating="5" id=""/>
-    <payment title="Butovo.com" rating="2" id=""/>
-    <payment title="Altegro" rating="1" id=""/>
-    <payment title="HeliosNet" rating="4" id=""/>
-    <payment title="ButovoNET" rating="3" id=""/>
-    <payment title="Koptevo.net" rating="6" id=""/>
-    <payment title="QWERTY" rating="7" id=""/>
+    <payment title="I-Wave" rating="5" id="50MKF3JGA34V"/>
+    <payment title="Butovo.com" rating="2" id="KWH7J5XP769A"/>
+    <payment title="Altegro" rating="1" id="2XH1Z4F9FDYU"/>
+    <payment title="HeliosNet" rating="4" id="5ZUXHGF1W0GI"/>
+    <payment title="ButovoNET" rating="3" id="ST1OVOPI6M0X"/>
+    <payment title="Koptevo.net" rating="6" id="N9VJW1FZJ0J0"/>
+    <payment title="QWERTY" rating="7" id="LT80876C24ZT"/>
   </category>
   <category name="ewallets" title="Электронные кошельки" rating="5">
     <payment title="MONETA.RU" rating="4" id="972998154B85"/>

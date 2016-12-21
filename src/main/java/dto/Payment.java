@@ -1,7 +1,6 @@
 package dto;
 
-
-public class Payment {
+public class Payment implements Comparable<Payment> {
 
     private String id;
     private String title;
@@ -37,4 +36,7 @@ public class Payment {
         this.rating = rating;
     }
 
+    public int compareTo(Payment o) {
+        return o.getRating() - this.getRating();
+    }
 }
